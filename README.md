@@ -80,7 +80,7 @@ The program currently opens three connections for mongodb at once for node,way a
 	},
 	"lng" : "-43.2068586",
 	"tags" : {
-		
+	  "source" : "Yahoo imaery"	
 	}
 }
 
@@ -94,7 +94,11 @@ The program currently opens three connections for mongodb at once for node,way a
 	"version" : "1",
 	"nodetype" : "way",
 	"tags" : {
-		
+		"highway" : "secondary",
+		"lanes" : "2",
+		"lit" : "yes",
+		"oneway" : "yes",
+		"surface" : "asphalt"
 	},
 	"name" : "Estrada do Pontal",
 	"nd" : [
@@ -119,7 +123,8 @@ The program currently opens three connections for mongodb at once for node,way a
 	"version" : "6",
 	"nodetype" : "relation",
 	"tags" : {
-		
+		"type" : "multipolygon",
+		"building" : "university"
 	},
 	"name" : "Pavilhão Reitor João Lyra Filho",
 	"member" : [
