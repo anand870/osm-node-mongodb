@@ -5,6 +5,7 @@ class Parser{
     this.parseCoordinate(newnode);
     this.parseTags(node,newnode);
     this.parseOthers(node,newnode);
+    newnode.id = parseInt(newnode.id);
     return newnode;
 
   }
@@ -16,7 +17,8 @@ class Parser{
         type:"Point",
         coordinates:[lng,lat]
       }
-      newnode.lng = newnode.lon;
+      newnode.lat = lat;
+      newnode.lng = lng;
       delete newnode.lon;
      }
   }
