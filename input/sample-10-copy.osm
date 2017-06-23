@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+  <node changeset="10373979" id="25038483" lat="-22.9809491" lon="-43.2068586" timestamp="2012-01-12T21:51:07Z" uid="12293" user="Nighto" version="2">
+		<tag k="source" v="Yahoo imaery" />
+	</node>
+	<node changeset="41021266" id="35574858" lat="-22.9252515" lon="-43.1802213" timestamp="2016-07-25T19:56:58Z" uid="4008694" user="smaprs_import" version="4" />
+	<node changeset="12169922" id="38663056" lat="-22.9357383" lon="-43.1949616" timestamp="2012-07-10T07:15:18Z" uid="481662" user="Geaquinto" version="5" />
+	<node changeset="33954340" id="50930714" lat="-22.9854283" lon="-43.2229035" timestamp="2015-09-11T10:52:10Z" uid="502691" user="ThiagoPv" version="14" />
+	<node changeset="8393341" id="50935710" lat="-22.973438" lon="-43.2020022" timestamp="2011-06-09T23:47:41Z" uid="12293" user="Nighto" version="2" />
+	<node changeset="10894496" id="97304223" lat="-23.005639" lon="-43.3107037" timestamp="2012-03-06T22:01:24Z" uid="481662" user="Geaquinto" version="3" />
+	<node changeset="9791668" id="97338293" lat="-22.9113387" lon="-43.8390266" timestamp="2011-11-10T19:52:38Z" uid="179540" user="sushi_klaus" version="2" />
+</osm>

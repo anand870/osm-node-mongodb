@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+  <node changeset="10373979" id="25038483" lat="-22.9809491" lon="-43.2068586" timestamp="2012-01-12T21:51:07Z" uid="12293" user="Nighto" version="2">
+		<tag k="source" v="Yahoo imaery" />
+	</node>
+	<node changeset="41021266" id="35574858" lat="-22.9252515" lon="-43.1802213" timestamp="2016-07-25T19:56:58Z" uid="4008694" user="smaprs_import" version="4" />
+	<node changeset="12169922" id="38663056" lat="-22.9357383" lon="-43.1949616" timestamp="2012-07-10T07:15:18Z" uid="481662" user="Geaquinto" version="5" />
+	<node changeset="33954340" id="50930714" lat="-22.9854283" lon="-43.2229035" timestamp="2015-09-11T10:52:10Z" uid="502691" user="ThiagoPv" version="14" />
+	<node changeset="8393341" id="50935710" lat="-22.973438" lon="-43.2020022" timestamp="2011-06-09T23:47:41Z" uid="12293" user="Nighto" version="2" />
+	<node changeset="10894496" id="97304223" lat="-23.005639" lon="-43.3107037" timestamp="2012-03-06T22:01:24Z" uid="481662" user="Geaquinto" version="3" />
+	<node changeset="9791668" id="97338293" lat="-22.9113387" lon="-43.8390266" timestamp="2011-11-10T19:52:38Z" uid="179540" user="sushi_klaus" version="2" />
+	<way changeset="42433432" id="444337539" timestamp="2016-09-25T22:22:39Z" uid="502691" user="ThiagoPv" version="1">
+		<nd ref="2841027216" />
+		<nd ref="2841027616" />
+		<tag k="highway" v="secondary" />
+		<tag k="lanes" v="2" />
+		<tag k="lit" v="yes" />
+		<tag k="name" v="Estrada do Pontal" />
+		<tag k="oneway" v="yes" />
+		<tag k="surface" v="asphalt" />
+	</way>
+	<relation changeset="34922564" id="121687" timestamp="2015-10-28T10:01:06Z" uid="502691" user="ThiagoPv" version="6">
+		<member ref="30775792" role="outer" type="way" />
+		<member ref="33747005" role="inner" type="way" />
+		<member ref="33747063" role="inner" type="way" />
+		<member ref="33747066" role="inner" type="way" />
+		<member ref="33747078" role="inner" type="way" />
+		<tag k="name" v="Pavilhão Reitor João Lyra Filho" />
+		<tag k="type" v="multipolygon" />
+		<tag k="building" v="university" />
+	</relation>
+	<relation changeset="28741164" id="1770055" timestamp="2015-02-10T00:18:58Z" uid="69210" user="Márcio Vínícius Pinheiro" version="16">
+		<member ref="134836622" role="" type="way" />
+		<member ref="327344046" role="" type="way" />
+		<member ref="327344045" role="" type="way" />
+		<member ref="125434685" role="" type="way" />
+		<member ref="67557569" role="" type="way" />
+		<member ref="126014854" role="" type="way" />
+		<member ref="118690265" role="" type="way" />
+		<member ref="142993737" role="" type="way" />
+		<member ref="180213283" role="" type="way" />
+		<member ref="67571046" role="" type="way" />
+		<member ref="67551955" role="" type="way" />
+		<member ref="131269851" role="" type="way" />
+		<member ref="327344048" role="" type="way" />
+		<member ref="131706984" role="" type="way" />
+		<member ref="237330069" role="" type="way" />
+		<member ref="327344052" role="" type="way" />
+		<member ref="125275563" role="" type="way" />
+		<member ref="131706982" role="" type="way" />
+		<member ref="131706983" role="" type="way" />
+		<member ref="53813561" role="" type="way" />
+		<member ref="327344054" role="" type="way" />
+		<member ref="327344050" role="" type="way" />
+		<member ref="125774743" role="" type="way" />
+		<member ref="1392011499" role="" type="node" />
+		<member ref="1392011497" role="" type="node" />
+		<member ref="1957464973" role="" type="node" />
+		<member ref="2453741083" role="" type="node" />
+		<tag k="ref" v="626" />
+		<tag k="name" v="Muda - Praça Saens Peña" />
+		<tag k="type" v="route" />
+		<tag k="route" v="bus" />
+		<tag k="old_ref" v="413A" />
+		<tag k="operator" v="Alpha" />
+	</relation>
+
+
+</osm>
