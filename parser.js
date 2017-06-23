@@ -25,18 +25,25 @@ class Parser{
       var tags = node.children.tag;
       let tag;
       newnode.tags = {};
-      for(var i=0;i<tags.length;i++){
-        tag = tags[i];
-        if(tag.attribs){
-          if(tag.attribs.k && tag.attribs.k.trim() === "name" ){
-            newnode.name = tag.attribs.v.trim();
+      if(Array.isArray(tags)){
+        for(var i=0;i<tags.length;i++){
+          tag = tags[i];
+          //console.log(tag.attribs.k)
+          if(tag.attribs && tag.attribs.k){
+            if(tag.attribs.k.trim() === "name"){
+              newnode.name = tag.attribs.v.trim();
+            }
+            else{
+              newnode.tags[tag.attribs.k.trim()]=tag.attribs.v.trim();
+            }
           }
         }
-        else{
-          newnode.tags[tag.attribs.k.trim()]=tag.attribs.v.trim();
-        }
+      }
+      else if(tags.attribs && tags.attribs.k){
+          newnode.tags[tags.attribs.k.trim()]=tags.attribs.v.trim();
       }
     }
+    //console.log(newnode)
   }
   parseOthers(node,newnode){
     var childname,child;
